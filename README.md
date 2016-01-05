@@ -7,8 +7,8 @@ Refer to the run files documentation.
 # docker-icinga2
 
 This repository is used as source for the CentOS6 
-docker image `ocontant/centos-icinga2` located at 
-[Docker Hub](https://hub.docker.com/r/ocontant/centos-icinga2).
+docker image `ocontant/centos6-icinga2` located at 
+[Docker Hub](https://hub.docker.com/r/ocontant/centos6-icinga2).
 
 ## Requirements
 
@@ -19,7 +19,7 @@ docker image `ocontant/centos-icinga2` located at
 This container is used for demos, tests and development only.
 
 If you encounter bugs, please open a new issue at 
-(https://github.com/ocontant/docker-icinga2_centos6/issues) and/or send a patch.
+[GitHub issues](https://github.com/ocontant/docker-icinga2_centos6/issues) and/or send a patch.
 
 ## Image details
 
