@@ -126,6 +126,6 @@ EXPOSE 22 80 443 5665 3306
 VOLUME ["/etc/icinga2", "/etc/icingaweb2", "/var/lib/icinga2", "/usr/share/icingaweb2", "/var/lib/mysql", "/usr/lib64/nagios/plugins"]
 
 # change this to entrypoint preventing bash login
-CMD ["/opt/icinga2/initdocker"]
+#CMD ["/opt/icinga2/initdocker"]
 #ENTRYPOINT ["/opt/icinga2/initdocker"]
 
