@@ -11,7 +11,7 @@ if [[ $# -lt 1 ]]; then
   docker run -dti -p $HOST_HTTP_PORT:80 -p $HOST_HTTPS_PORT -p $HOST_SSH_PORT:22 ocontant/centos6-icinga2
 else
   if [[ `stat "${contentpath}"` ]]; then
-    docker run -dti -p $HOST_HTTP_PORT:80 -p HOST_HTTPS_PORT -p $HOST_SSH_PORT:22 -v "${contentpath}"/etc/icinga2:/etc/icinga2 -v "${contentpath}"/etc/icingaweb2:/etc/icingaweb2 -v "${contentpath}"/etc/supervisord.conf ocontant/centos6-icinga2
+    docker run -dti -p $HOST_HTTP_PORT:80 -p $HOST_HTTPS_PORT -p $HOST_SSH_PORT:22 -v "${contentpath}"/etc/icinga2:/etc/icinga2 -v "${contentpath}"/etc/icingaweb2:/etc/icingaweb2 -v "${contentpath}"/etc/supervisord.conf ocontant/centos6-icinga2
   else
     echo "The path specified doesn't exist or you included the trailing slash at the end of the path provided."
     echo "Value entered: ${contentpath}"
