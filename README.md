@@ -2,9 +2,9 @@
 # I needed a version working with CentOS6 so I adapted the original one to worked on CentOS6
 
 # References:
-https://docs.docker.com/engine/userguide/dockerimages
-https://hub.docker.com/r/icinga/icinga2
-https://github.com/Icinga/docker-icinga2
+1. https://docs.docker.com/engine/userguide/dockerimages
+2. https://hub.docker.com/r/icinga/icinga2
+3. https://github.com/Icinga/docker-icinga2
 
 This version support to have configuration files residing outside of the docker on the host.
 Refer to the run files documentation. 
